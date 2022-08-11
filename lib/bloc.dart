@@ -14,7 +14,7 @@ class weatherState {
 
 class weather extends Bloc<dynamic, weatherState> {
   String url =
-      "https://api.openweathermap.org/data/2.5/weather?units=metric&appid=fcb80db3b2180d2cd9cc191278bf70cb";
+      "https://api.openweathermap.org/data/2.5/weather?units=metric&appid=<openWeatherApiKey>";
 
   weather() : super(weatherState("", 0.0, Icon(CupertinoIcons.cloud)));
 
