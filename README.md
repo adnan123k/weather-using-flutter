@@ -1,16 +1,24 @@
-# weather_api
+# weather app
 
-A new Flutter project.
+the app provide your weather status in celsius
 
-## Getting Started
+## feature:
+* user friendly
+* dynamic icons depend on your weather status
 
-This project is a starting point for a Flutter application.
+## technology:
+* flutter
+* bloc state management
 
-A few resources to get you started if this is your first Flutter project:
+## how to run it:
+* install flutter
+* install ide to use flutter(ex:vscode)
+* open the folder in the ide
+* run flutter pub get command inside the folder
+* go to main.dart inside lib file and run it on your physical device or your emulator
+* allow the app to use your location
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## example:
+<img width=200 src="https://user-images.githubusercontent.com/55524560/225361537-08eeff6d-a088-4ff4-90f7-a257eb40bae3.png">
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
